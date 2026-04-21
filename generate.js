@@ -46,22 +46,22 @@ async function main() {
   // Busca repos
   const repos = await get(`https://api.github.com/users/${USERNAME}/repos?per_page=100`);
 
-  // Conta bytes por linguagem
+  // Conta em quantos repos cada linguagem aparece
   const totals = {};
+  let repoCount = 0;
   for (const repo of repos) {
     if (repo.fork) continue;
     if (EXCLUDED_REPOS.includes(repo.name)) continue;
+    repoCount++;
     const langs = await get(repo.languages_url);
-    for (const [lang, bytes] of Object.entries(langs)) {
-      totals[lang] = (totals[lang] || 0) + bytes;
+    for (const lang of Object.keys(langs)) {
+      totals[lang] = (totals[lang] || 0) + 1;
     }
   }
 
-  const total = Object.values(totals).reduce((a, b) => a + b, 0);
   const top = Object.entries(totals)
     .sort((a, b) => b[1] - a[1])
-    .slice(0, 5)
-    .map(([name, bytes]) => ({ name, pct: Math.round(bytes / total * 100) }));
+    .map(([name, count]) => ({ name, pct: Math.round(count / repoCount * 100) }));
 
   // Dimensões
   const W = 380;
