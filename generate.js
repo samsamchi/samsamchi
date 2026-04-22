@@ -1,10 +1,10 @@
 const https = require('https');
 
-const USERNAME = 'samsamchi';
+const USERNAME = 'samueeloliveiraa';
 
 function get(url) {
   return new Promise((resolve, reject) => {
-    https.get(url, { headers: { 'User-Agent': 'samsamchi-profile', 'Authorization': process.env.GH_TOKEN ? `token ${process.env.GH_TOKEN}` : '' } }, res => {
+    https.get(url, { headers: { 'User-Agent': 'samueeloliveiraa-profile', 'Authorization': process.env.GH_TOKEN ? `token ${process.env.GH_TOKEN}` : '' } }, res => {
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => resolve(JSON.parse(data)));
@@ -145,7 +145,7 @@ async function main() {
   <!-- header -->
   <text x="${PAD}" y="34" font-family="'JetBrains Mono',monospace" font-size="9" font-weight="600" fill="#7cffd4" letter-spacing="3">// STACK</text>
   <text x="${PAD}" y="58" font-family="'Syne',sans-serif" font-size="20" font-weight="800" fill="#e8eaf0">Samuel Oliveira</text>
-  <text x="${PAD}" y="76" font-family="'JetBrains Mono',monospace" font-size="10" fill="#4a5068">@samsamchi · Software Developer</text>
+  <text x="${PAD}" y="76" font-family="'JetBrains Mono',monospace" font-size="10" fill="#4a5068">@samueeloliveiraa · Software Developer</text>
 
   <!-- dot grid -->
   ${[0,1,2,3].map(r => [0,1,2,3].map(c =>
