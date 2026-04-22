@@ -83,7 +83,7 @@ async function main() {
     .map(([name, count]) => ({ name, pct: Math.round(count / repoCount * 100) }));
 
   // Dimensões
-  const W = 620;
+  const W = 780;
   const ROW_H = 52;
   const HEADER_H = 90;
   const FOOTER_H = 44;
