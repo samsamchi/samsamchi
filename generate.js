@@ -161,7 +161,7 @@ async function main() {
   <!-- footer -->
   <circle cx="${PAD + 5}" cy="${H - FOOTER_H/2}" r="3" fill="#7cffd4" opacity="0.9"/>
   <text x="${PAD + 14}" y="${H - FOOTER_H/2 + 4}" font-family="'JetBrains Mono',monospace" font-size="9" fill="#4a5068">603 contributions · 2026</text>
-  <text x="${W - PAD}" y="${H - FOOTER_H/2 + 4}" font-family="'JetBrains Mono',monospace" font-size="9" fill="#7cffd4" text-anchor="end" opacity="0.7">github/samsamchi →</text>
+  <text x="${W - PAD}" y="${H - FOOTER_H/2 + 4}" font-family="'JetBrains Mono',monospace" font-size="9" fill="#7cffd4" text-anchor="end" opacity="0.7">github/samueeloliveiraa →</text>
 </svg>`;
 
   const fs = require('fs');
