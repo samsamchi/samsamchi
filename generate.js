@@ -61,7 +61,7 @@ const ICONS = {
 
   HTML: `<g transform="scale(1)"><g transform="scale(5.3333)"><path fill="#E34F26" d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/></g></g>`,
 
-  CMake: `<g transform="scale(1)"><polygon fill="#CC2929" points="64,4 32,62 96,62"/><polygon fill="#2A9A2A" points="32,62 4,120 64,120"/><polygon fill="#2929CC" points="96,62 64,120 124,120"/></g>`,
+  CMake: `<g transform="scale(1)"><g transform="scale(5.3333)"><polygon fill="#064F8C" points="12,1 10,22 23,22"/><polygon fill="#BF4025" points="12,1 1,22 10,22"/><polygon fill="#1A9B41" points="1,22 6,14 10,22"/></g></g>`,
 };
 
 const META = {
