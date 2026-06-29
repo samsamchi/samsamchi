@@ -26,31 +26,8 @@
 
   <!-- rows -->
   
-      <!-- row JavaScript -->
-      <g transform="translate(28, 90)">
-        <!-- icon bg -->
-        <rect x="0" y="6" width="26" height="26" rx="7" fill="#1a1a00"/>
-        <svg x="0" y="6" width="26" height="26" viewBox="0 0 128 128"><g><path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185H1.408z"/><path fill="#323330" d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.196 5.168 16.972 3.758 18.423 7.582.947 3.689-.066 5.922-2.768 7.864-2.301 1.661-5.247 2.424-7.929 2.062-4.726-.618-7.7-3.36-9.419-7.604l-9.124 5.203c1.059 3.012 2.248 4.373 4.143 6.156 9.259 8.529 32.464 7.939 36.874-4.979.165-.478 1.247-3.45.432-8.028zM74.298 43.023H62.18v40.804c0 8.688.45 16.654-.988 19.196-2.289 3.959-8.12 3.455-10.773 2.748-2.764-.785-4.18-2.663-5.723-5.386l-9.069 5.598c2.415 4.956 5.904 8.312 10.275 10.409 6.104 2.886 13.405 3.555 21.896 1.819 5.333-1.124 9.882-3.86 12.337-8.095 3.519-6.305 2.718-13.827 2.684-22.929L74.298 43.023z"/></g></svg>
-        
-
-        <!-- lang name -->
-        <text x="34" y="20" font-family="'JetBrains Mono',monospace" font-size="12" font-weight="600" fill="#e8eaf0">JavaScript</text>
-
-        <!-- tag -->
-        <rect x="34" y="24" width="29.5" height="12" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-        <text x="48.75" y="33.5" font-family="'JetBrains Mono',monospace" font-size="7.5" font-weight="600" fill="#4a5068" text-anchor="middle" letter-spacing="1">WEB</text>
-
-        <!-- pct -->
-        <text x="724" y="20" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="700" fill="#e8eaf0" text-anchor="end">33%</text>
-
-        <!-- bar track -->
-        <rect x="0" y="38" width="724" height="4" rx="2" fill="rgba(255,255,255,0.05)"/>
-        <!-- bar fill -->
-        <rect x="0" y="38" width="239" height="4" rx="2" fill="#F0DB4F"/>
-      </g>
-    
       <!-- row C -->
-      <g transform="translate(28, 142)">
+      <g transform="translate(28, 90)">
         <!-- icon bg -->
         <rect x="0" y="6" width="26" height="26" rx="7" fill="#1a2535"/>
         <svg x="0" y="6" width="26" height="26" viewBox="0 0 128 128"><g><path fill="#659AD3" d="M115.4 30.7L67.1 2.9c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.4 1 3.5l106.8-61.5c-.6-1.2-1.5-2.1-2.4-3.2z"/><path fill="#03599C" d="M10.7 95.3c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4V36.1c0-.9-.1-1.9-.6-2.8l-106.6 62z"/><path fill="#fff" d="M85.3 76.1C81.1 83.5 73.1 88.5 64 88.5c-13.5 0-24.5-11-24.5-24.5s11-24.5 24.5-24.5c9.1 0 17.1 5 21.3 12.5l13-7.5c-6.8-11.9-19.6-20-34.3-20-21.8 0-39.5 17.7-39.5 39.5s17.7 39.5 39.5 39.5c14.6 0 27.4-8 34.2-19.8l-12.9-7.6z"/></g></svg>
@@ -64,12 +41,35 @@
         <text x="61.75" y="33.5" font-family="'JetBrains Mono',monospace" font-size="7.5" font-weight="600" fill="#4a5068" text-anchor="middle" letter-spacing="1">SYSTEMS</text>
 
         <!-- pct -->
-        <text x="724" y="20" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="700" fill="#e8eaf0" text-anchor="end">33%</text>
+        <text x="724" y="20" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="700" fill="#e8eaf0" text-anchor="end">38%</text>
 
         <!-- bar track -->
         <rect x="0" y="38" width="724" height="4" rx="2" fill="rgba(255,255,255,0.05)"/>
         <!-- bar fill -->
-        <rect x="0" y="38" width="239" height="4" rx="2" fill="#659ad3"/>
+        <rect x="0" y="38" width="275" height="4" rx="2" fill="#659ad3"/>
+      </g>
+    
+      <!-- row JavaScript -->
+      <g transform="translate(28, 142)">
+        <!-- icon bg -->
+        <rect x="0" y="6" width="26" height="26" rx="7" fill="#1a1a00"/>
+        <svg x="0" y="6" width="26" height="26" viewBox="0 0 128 128"><g><path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185H1.408z"/><path fill="#323330" d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.196 5.168 16.972 3.758 18.423 7.582.947 3.689-.066 5.922-2.768 7.864-2.301 1.661-5.247 2.424-7.929 2.062-4.726-.618-7.7-3.36-9.419-7.604l-9.124 5.203c1.059 3.012 2.248 4.373 4.143 6.156 9.259 8.529 32.464 7.939 36.874-4.979.165-.478 1.247-3.45.432-8.028zM74.298 43.023H62.18v40.804c0 8.688.45 16.654-.988 19.196-2.289 3.959-8.12 3.455-10.773 2.748-2.764-.785-4.18-2.663-5.723-5.386l-9.069 5.598c2.415 4.956 5.904 8.312 10.275 10.409 6.104 2.886 13.405 3.555 21.896 1.819 5.333-1.124 9.882-3.86 12.337-8.095 3.519-6.305 2.718-13.827 2.684-22.929L74.298 43.023z"/></g></svg>
+        
+
+        <!-- lang name -->
+        <text x="34" y="20" font-family="'JetBrains Mono',monospace" font-size="12" font-weight="600" fill="#e8eaf0">JavaScript</text>
+
+        <!-- tag -->
+        <rect x="34" y="24" width="29.5" height="12" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+        <text x="48.75" y="33.5" font-family="'JetBrains Mono',monospace" font-size="7.5" font-weight="600" fill="#4a5068" text-anchor="middle" letter-spacing="1">WEB</text>
+
+        <!-- pct -->
+        <text x="724" y="20" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="700" fill="#e8eaf0" text-anchor="end">31%</text>
+
+        <!-- bar track -->
+        <rect x="0" y="38" width="724" height="4" rx="2" fill="rgba(255,255,255,0.05)"/>
+        <!-- bar fill -->
+        <rect x="0" y="38" width="224" height="4" rx="2" fill="#F0DB4F"/>
       </g>
     
       <!-- row TypeScript -->
@@ -87,12 +87,12 @@
         <text x="52" y="33.5" font-family="'JetBrains Mono',monospace" font-size="7.5" font-weight="600" fill="#4a5068" text-anchor="middle" letter-spacing="1">MAIN</text>
 
         <!-- pct -->
-        <text x="724" y="20" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="700" fill="#e8eaf0" text-anchor="end">25%</text>
+        <text x="724" y="20" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="700" fill="#e8eaf0" text-anchor="end">23%</text>
 
         <!-- bar track -->
         <rect x="0" y="38" width="724" height="4" rx="2" fill="rgba(255,255,255,0.05)"/>
         <!-- bar fill -->
-        <rect x="0" y="38" width="181" height="4" rx="2" fill="#007acc"/>
+        <rect x="0" y="38" width="167" height="4" rx="2" fill="#007acc"/>
       </g>
     
       <!-- row HTML -->
@@ -110,12 +110,12 @@
         <text x="48.75" y="33.5" font-family="'JetBrains Mono',monospace" font-size="7.5" font-weight="600" fill="#4a5068" text-anchor="middle" letter-spacing="1">WEB</text>
 
         <!-- pct -->
-        <text x="724" y="20" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="700" fill="#e8eaf0" text-anchor="end">25%</text>
+        <text x="724" y="20" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="700" fill="#e8eaf0" text-anchor="end">23%</text>
 
         <!-- bar track -->
         <rect x="0" y="38" width="724" height="4" rx="2" fill="rgba(255,255,255,0.05)"/>
         <!-- bar fill -->
-        <rect x="0" y="38" width="181" height="4" rx="2" fill="#E34F26"/>
+        <rect x="0" y="38" width="167" height="4" rx="2" fill="#E34F26"/>
       </g>
     
       <!-- row Java -->
@@ -308,6 +308,6 @@
 
   <!-- footer -->
   <circle cx="33" cy="752" r="3" fill="#7cffd4" opacity="0.9"/>
-  <text x="42" y="756" font-family="'JetBrains Mono',monospace" font-size="9" fill="#4a5068">278 contributions · 2026</text>
+  <text x="42" y="756" font-family="'JetBrains Mono',monospace" font-size="9" fill="#4a5068">281 contributions · 2026</text>
   <text x="752" y="756" font-family="'JetBrains Mono',monospace" font-size="9" fill="#7cffd4" text-anchor="end" opacity="0.7">github/samueeloliveiraa →</text>
 </svg>
